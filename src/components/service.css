@@ -1,0 +1,40 @@
+.PService{
+    margin-left: 12%;
+    margin-right: 12%;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 20vh;  
+    height: 20px;    
+}
+.PService > h4{
+    float: left;      
+    width: 550px;
+    height: 100px;
+    padding: 30px;    
+    
+}
+.PService > h1{
+    float: left;
+    position: absolute;
+    height:200px;
+    width: 800px;
+    padding-top: 60px;
+    padding-left: 30px;
+    margin-bottom: 50px;    
+}
+
+.PService > p{
+    float:right;
+    position: absolute;        
+    height: 100px;
+    width: 100%;
+    padding-left: 550px;
+    font-size: 15px;
+    padding-top: 50px;    
+}
+.footerP{   
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    padding: 1em, 0;
+}

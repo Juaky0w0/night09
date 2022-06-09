@@ -1,0 +1,62 @@
+.texts h3{  
+    text-align: center;
+    font-size: 2.1rem;
+}
+p{
+    font-size: 1.3rem;
+    margin: auto;
+}
+.imagen-baner >img{
+    height: 600px;
+    background-size: cover;
+}
+.texts{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+}
+.boton-personalizado-4 {    
+    font-size: 0.8rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:35px;
+    border:none; 
+    }
+    .boton-personalizado-4:hover{
+        background-color: #ffdd40;
+    }
+    .boton-personalizado-4 a:hover{
+        color:#333333;
+    }
+
+    .boton-personalizado-4 a{
+        text-decoration: none;
+        font-weight: bold;
+        color:#333333;
+    }
+    @media screen and (max-width: 750px) {
+
+        .texts{
+            margin-bottom: -10px;
+            height: 180px;
+        }
+        .texts h3{  
+            font-size: 1.4rem;  
+        }
+        p{
+            font-size: 0.9rem;
+            
+        }
+        .boton-personalizado-4 {    
+            font-size: 0.6rem; 
+            }
+            .imagen-baner >img{
+                height: 400px;
+
+            }
+      }
